@@ -59,7 +59,7 @@ import os
 #     )
 # llm = HuggingFacePipeline(pipeline=pipe)
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = <>
 embeddings = OpenAIEmbeddings()
 llm = OpenAI(temperature=0)
 
